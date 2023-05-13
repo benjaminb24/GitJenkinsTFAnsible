@@ -9,10 +9,6 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "us-east-1"
-  access_key = "ASIAVNWYMEA4GBFM5V7N"
-  secret_key = "mrVX1xI57TeGEMcqJZ+L0DobdWUtPobMlxo2kA9d"
-  token = "FwoGZXIvYXdzEKv//////////wEaDPMHS4SuLVcHJDqQayK5AYnyyfW/nCDee4OgRnqmOUfy2ibbvdXatJAz5ska4nZtbFjk3qP6BkMFbB96Q8apI8QWq9n5Zin88DNWG1YD+Wrzrq4KqpVmRGJXjniQRKLOzG7cn4yAsSxvqEhZGfof4w5mEQ17V5bd5fF+IJlEBGRzQu+6idl8Q1MDXCDgliOzrgUATvvDhg8HfKDGQDDqP7NwCpr+gOw39yU2XnX2XW90dWULuw65K2lOJL9bMOrmoL5nT+Toj1wRKNa79qIGMi1XOPMWA9yFQwm2Dn+OmxndGxSBx40nqn9MEoaTEcg19F5D8dcAiQq+gLNZkWA="
 }
 
 variable "default-ami" {
